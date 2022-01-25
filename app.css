@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 body{
     background-image: url('bg.jpg');
     background-repeat: no-repeat;
@@ -30,9 +32,43 @@ img {
     text-align: center;
     font-size: 50px;
     color: rgb(193, 240, 240);
+    font-family: 'Poppins', sans-serif;
 }
 
 .img-section{
     padding: 20px !important;
     background: linear-gradient(rgb(52, 117, 126),rgb(103, 207, 221)) !important;
+}
+
+.cta{
+    padding: 10px 20px;
+background: linear-gradient(rgb(48, 91, 141),rgb(15, 44, 77));
+border-radius: 40px;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 0px;
+color: azure;
+}
+
+.game-name{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px !important;
+    font-size: 35px !important;
+    
+}
+
+.card-content{
+    padding-top: 10px !important;
+    padding-bottom: 10px;
+   
+}
+
+.card-reveal{
+    background: linear-gradient(rgb(111, 202, 214),rgb(42, 101, 109)) !important;
+    font-family: 'Poppins', sans-serif !important;
+   font-size: 20px !important;
+
+}
+
+.reveal-name{
+    font-size: 25px !important;
 }
