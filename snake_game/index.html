@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snek</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="main">
+        <div class="gameOver">
+            <h3>Game Over!!!</h3>
+        </div>
+        <div id="scoreBox">Score: 0</div>
+        <div id="highBox">High Score: 0</div>
+        <button ontouchstart="reload()" onClick="reload()" class="retry">
+            Restart 
+        </button>
+        <div id="board"></div>
+        <h1>Press any key or swipe to start the game!</h1>
+        <h1>Use arrow keys / swipe gestures to control the snake.</h1>
+        
+    </div>
+</body>
+<script src="js/index.js"></script>
+</html>

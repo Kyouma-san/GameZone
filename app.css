@@ -1,0 +1,25 @@
+img {
+    max-height: 300px;
+    max-width: 300px;
+    margin: auto;
+}
+
+.card{
+    height: 400px;
+    width: 350px;
+    margin: 20px;
+}
+
+.games{
+    margin-top: 20px;
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 50px;
+}
