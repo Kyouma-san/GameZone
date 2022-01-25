@@ -30,7 +30,7 @@ img {
     margin-top: 50px;
     font-weight: bolder;
     text-align: center;
-    font-size: 50px;
+    font-size: 64px;
     color: rgb(193, 240, 240);
     font-family: 'Poppins', sans-serif;
 }
@@ -67,6 +67,11 @@ color: azure;
     font-family: 'Poppins', sans-serif !important;
    font-size: 20px !important;
 
+}
+
+.card-reveal p{
+    text-decoration: underline;
+    font-size: 25px;
 }
 
 .reveal-name{
