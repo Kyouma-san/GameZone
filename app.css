@@ -1,6 +1,12 @@
+body{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 img {
-    max-height: 300px;
-    max-width: 300px;
+    max-height: 250px;
+    max-width: 250px;
     margin: auto;
 }
 
@@ -11,7 +17,7 @@ img {
 }
 
 .games{
-    margin-top: 20px;
+    margin-top: 60px;
     display: flex ;
     flex-direction: row;
     flex-wrap: wrap ;
@@ -19,7 +25,14 @@ img {
     justify-content: center;
 }
 .heading{
-    margin-top: 30px;
+    margin-top: 50px;
+    font-weight: bolder;
     text-align: center;
     font-size: 50px;
+    color: rgb(193, 240, 240);
+}
+
+.img-section{
+    padding: 20px !important;
+    background: linear-gradient(rgb(52, 117, 126),rgb(103, 207, 221)) !important;
 }
